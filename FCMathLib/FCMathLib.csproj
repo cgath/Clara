@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="4.4.1" />
+    <PackageReference Include="MathNet.Numerics.MKL.Win-x64" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\chga\.nuget\packages\mathnet.numerics.mkl.win-x64\2.3.0\build\x64\libiomp5md.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\chga\.nuget\packages\mathnet.numerics.mkl.win-x64\2.3.0\build\x64\MathNet.Numerics.MKL.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
